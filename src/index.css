@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@theme {
+  --color-geo-bg: #050505;
+  --color-geo-card: #0d0d0d;
+  --color-geo-cyan: #00f3ff;
+  --color-geo-magenta: #ff00ff;
+  --color-geo-lime: #39ff14;
+  --color-geo-text: #ffffff;
+  --color-geo-dim: #888888;
+  --color-geo-border: #222222;
+  --font-sans: 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'Courier New', monospace;
+}
+
+body {
+  background-color: var(--color-geo-bg);
+  color: var(--color-geo-text);
+  font-family: var(--font-sans);
+  margin: 0;
+  padding: 0;
+}
